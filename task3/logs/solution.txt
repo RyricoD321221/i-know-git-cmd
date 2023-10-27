@@ -1,2 +1,0 @@
-grep -m 5 "denied wrong password" access.log | sort -r
-
