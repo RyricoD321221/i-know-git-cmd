@@ -1,2 +1,2 @@
-$ echo sort -r | grep -m 5 'denied wrong password' access.log
+grep -m 5 "denied wrong password" access.log | sort -r
 
